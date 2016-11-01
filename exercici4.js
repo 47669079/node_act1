@@ -1,7 +1,7 @@
 var http=require('http');
 var url=require('url');
 
-function handleRequest(request, response){
+function handleRequest(request, response){ //creem la funció handleRequest 
 	response.writeHead(200, {'Content-Type':'text/html'});
 	response.write('<h1>Benvinguts a node</h1>');
 	response.end();
