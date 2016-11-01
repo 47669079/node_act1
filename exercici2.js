@@ -2,7 +2,7 @@ var Mates=require('./matematica'); //nombre con el que vamos a exportar / ubicac
 var num1=24;
 var num2=35;
 
-var calc=new Mates(); //creamos el objeto 
+var calc=new Mates(); //creamos el objeto para utilizar las funciones de Mates
 
 calc.suma(num1,num2); //importante que los nombres de las funciones coincidan (EXERCICI 2 Y INDEX JS)
 
